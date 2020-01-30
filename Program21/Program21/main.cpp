@@ -3,11 +3,11 @@ using namespace std;
 int main()
 {
     bool flag = false;
-    int array[10][8];
+    int array[10][8];//Dvymerniu massiv
     int n=0,m=0,a,b;
-    for (int i=0; i<10; i++)
+    for (int i=0; i<10; i++)//инцилизация двурмерного массива
     {
-         for (int j=0; j<8; j++)
+         for (int j=0; j<8; j++)//
          {
              array[i][j]=0;
               cout << array[i][j] << endl;

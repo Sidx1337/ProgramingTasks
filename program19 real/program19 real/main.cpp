@@ -4,9 +4,7 @@ int main()
 {
     const int n = 20;
     int max=-101,min=101;
-    int k=rand();
     int array[n];
-    cout << k;
     for (int i=0; i<20; i++)
     {
         array[i]=(rand() % 201) - 100;
